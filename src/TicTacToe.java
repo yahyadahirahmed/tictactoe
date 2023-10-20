@@ -226,7 +226,7 @@ public class TicTacToe implements ActionListener {
     }
     public void Owins(int a, int b, int c) {
         // if o player wins we will call this method
-        buttons[a].setForeground(Color.GREEN);
+        buttons[a].setBackground(Color.GREEN);
         buttons[b].setBackground(Color.GREEN);
         buttons[c].setBackground(Color.GREEN);
 
